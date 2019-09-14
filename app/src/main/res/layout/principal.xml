@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAgregar"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/colorPrimary"
+        android:fontFamily="sans-serif-black"
+        android:onClick="Agregar"
+        android:text="AGREGAR CONTACTO" />
+
+    <ListView
+        android:id="@+id/lvContactos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:cacheColorHint="#03A9F4"></ListView>
+
+
+</LinearLayout>
